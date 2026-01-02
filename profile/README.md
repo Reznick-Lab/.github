@@ -2,8 +2,6 @@
 
 This is the official Reznick Lab Github! Please feel free to use this platform to upload code you'd like to share with each other or collaborators. Our PI, [David Reznick](https://davidreznick.weebly.com/evolution-of-the-placenta.html), focuses on 
 Guppy Evolution and the Evolution of the Placenta in Poeciliids. 
-We explore the process of evolution by natural selection using observations and experiments to test evolutionary theory in natural populations in the following ways: 
-
 
 <!--
 
