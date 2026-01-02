@@ -5,7 +5,12 @@ Guppy Evolution and the Evolution of the Placenta in Poeciliids.
 
 <img src="https://www.nature.com/articles/nature13451.pdf" alt="Taken from Pollux et al. (2014) Nature
 ">
+
+## Lab Mates 
+If you've just starting getting used to this platform, please go to [this](README.md) page to get yourself started off on some basics. 
+
 <!--
+
 
 **Here are some ideas to get you started:**
 
