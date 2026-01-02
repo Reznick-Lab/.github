@@ -4,6 +4,7 @@ Intro to Reznick Github
 ## WELCOME
 This platform's intended use is to share code, project files, and data easily across our lab. This is also a convenient way to track student progress if they were to work on your repository.
 
+
 ## Crash Course Into Github: 
 Github is used as a version control platform. Long story short, this is a way to track any changes to your files, code, and projects which can be helpful to a large team sharing data. Through this platform, we can see other people's scripts, share data easily amongst ourselves, and also monitor undergrad progress. 
 
@@ -31,7 +32,7 @@ Once you've created your SSH Key, add that key onto Github using this [documenta
 
 HOORAY! You've made your SSH key, now you're ready clone your repo to your local repository: 
 
-Pre-existing Repository: 
+### Cloning into an existing Repository: 
 Access your terminal, and use this code:  
 
 <pre> <code class="hljs language-shell">
@@ -57,7 +58,18 @@ Then, use command 'git clone "paste link"'. Checkout the preview below to see wh
 
  There ya go! You've connected your remote repository to your existing repository! 
 
- 
+ ### Cloning into an empty repository 
+If you want to create a new repository for an upcoming project, use the same commands from above but use this new command below. 
+
+<pre><code class="hljs language-shell">
+   user$ mkdir "Folder Name" //use this command to make a new folder, keep repo name the same as the repo you're cloning from github. 
+</code></pre>
+
+mkdir: "make directory" which creates a new folder. 
+
+Happy coding! 
+
+
 
 
 
