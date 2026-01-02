@@ -12,7 +12,7 @@ Folders on Github are called repositories (repos). Repos can be backed up on the
 
 For some more basics on best repository practice, please review this [link](https://docs.github.com/en/repositories/creating-and-managing-repositories/best-practices-for-repositories). 
 
-### To Start
+## To Start
 
 1. Create a new repository. Here is the quick start [documentation](https://docs.github.com/en/repositories/creating-and-managing-repositories/quickstart-for-repositories).
 
