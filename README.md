@@ -41,8 +41,15 @@ Access your terminal, and use this code->
   Once you've confirmed that you are in the right folder, copy the HTTPS link from your github repo (refer to image below) 
   
   <img width="926" height="694" alt="image" src="https://github.com/user-attachments/assets/d535a3a6-324e-4503-a6d9-bbf2ee73dfe5" />)
+  
+>(base) ucr-secure-01-fs-10-12-135-176:test froglord$ git clone https://github.com/leann-labra/test.git
+>Cloning into 'test'...
+>remote: Enumerating objects: 3, done.
+>remote: Counting objects: 100% (3/3), done.
+>remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+>Receiving objects: 100% (3/3), done.
 
-Go back to your terminal, and 'git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY" 
+
 
 
 
