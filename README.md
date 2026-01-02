@@ -38,7 +38,11 @@ Access your terminal, and use this code->
   
   check to see if you are in the right folder by typing 'pwd' or "print working directory". 
 
-  Once you've confirmed that you are in the right folder, copy the HTTPS link from your github repo [](<img width="926" height="694" alt="image" src="https://github.com/user-attachments/assets/d535a3a6-324e-4503-a6d9-bbf2ee73dfe5" />)
+  Once you've confirmed that you are in the right folder, copy the HTTPS link from your github repo (refer to image below) 
+  
+  <img width="926" height="694" alt="image" src="https://github.com/user-attachments/assets/d535a3a6-324e-4503-a6d9-bbf2ee73dfe5" />)
+
+Go back to your terminal, and 'git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY" 
 
 
 
