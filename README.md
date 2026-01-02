@@ -37,14 +37,14 @@ Access your terminal, and use this code:
 <pre> <code class="hljs language-shell">
    user$ ls //lists folders/files 
    user$ cd [folder you want to access] //change directory 
-   user$ pwd //print working directory-> use to check if you are      in right folder. 
+   user$ pwd //print working directory-> use to check if you are in right folder. 
 </code></pre>
 
-  Once you've confirmed that you are in the right folder, copy the HTTPS link from your github repo (refer to image below) 
+  Once you've confirmed that you are in the right folder, copy the HTTPS link from your github repo (refer to image below). 
   
   <img width="926" height="694" alt="image" src="https://github.com/user-attachments/assets/d535a3a6-324e-4503-a6d9-bbf2ee73dfe5" />)
 
-Checkout the preview below to see what your terminal should look like: 
+Then, use command 'git clone "paste link"'. Checkout the preview below to see what your terminal should look like: 
  <pre> 
    <code class="hljs langauage-shell"> 
    (base) ucr-secure-01-fs-10-12-135-176:test froglord$ git clone https://github.com/leann-labra/test.git
@@ -54,6 +54,10 @@ Checkout the preview below to see what your terminal should look like:
    remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
    Receiving objects: 100% (3/3), done.</code>
  </pre>
+
+ There ya go! You've connected your remote repository to your existing repository! 
+
+ 
 
 
 
