@@ -7,7 +7,7 @@ Guppy Evolution and the Evolution of the Placenta in Poeciliids.
 ">
 
 ## Lab Mates 
-If you've just starting getting used to this platform, please go to [this](.github/README.md) page to get yourself started off on some basics. 
+If you've just starting getting used to this platform, please go to [this](../README.md) page to get yourself started off on some basics. 
 
 <!--
 
