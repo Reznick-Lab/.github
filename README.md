@@ -32,16 +32,19 @@ Once you've created your SSH Key, add that key onto Github using this [documenta
 HOORAY! You've made your SSH key, now you're ready clone your repo to your local repository: 
 
 Pre-existing Repository: 
-Access your terminal, and use this code-> 
-  'ls' -> lists your files and folders
-  'cd "folder of your local repo" -> if your desired folder is in         another folder, you can just continue to 'cd' into folders until you    find your right folder. 
-  
-  check to see if you are in the right folder by typing 'pwd' or "print working directory". 
+Access your terminal, and use this code:  
+
+<pre> <code class="hljs language-shell">
+   user$ ls //lists folders/files 
+   user$ cd [folder you want to access] //change directory 
+   user$ pwd //print working directory-> use to check if you are      in right folder. 
+</code></pre>
 
   Once you've confirmed that you are in the right folder, copy the HTTPS link from your github repo (refer to image below) 
   
   <img width="926" height="694" alt="image" src="https://github.com/user-attachments/assets/d535a3a6-324e-4503-a6d9-bbf2ee73dfe5" />)
 
+Checkout the preview below to see what your terminal should look like: 
  <pre> 
    <code class="hljs langauage-shell"> 
    (base) ucr-secure-01-fs-10-12-135-176:test froglord$ git clone https://github.com/leann-labra/test.git
