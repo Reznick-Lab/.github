@@ -4,7 +4,7 @@ Intro to Reznick Github
 ## WELCOME
 This platform's intended use is to share code, project files, and data easily across our lab. This is also a convenient way to track student progress if they were to work on your repository. This repository is reserved *ONLY* for informational guidelines such as how to set up a repository, github ettiquette/tips, and also how to use github. Below is a quick crash course on how to get you started with your repository building. 
 
-For basic github commands, please refer to this [link](github link to git-hub commands markdown file). 
+For basic github commands, please refer to this [link](https://github.com/Reznick-Lab/.github/blob/main/basic-git-commands.md). 
 
 
 ## Crash Course Into Github: 
@@ -16,11 +16,28 @@ For some more basics on best repository practice, please review this [link](http
 
 ## To Start
 
-1. Create a new repository. Here is the quick start [documentation](https://docs.github.com/en/repositories/creating-and-managing-repositories/quickstart-for-repositories).
+1. Before doing anything, most of us have MacOS, if you have a Mac device then follow these instructions. Otherwise, if you have Windows, click this [link](https://git-scm.com/install/windows) so you can follow instructions to download Git onto your computer.
 
-2. As part of good practice, always include a README file with your repository. This is as simple as toggling on the "Add README" part when you initially create the repo.
+   **Mac Users:**
+      - Check to make sure you have homebrew installed. This is a free open-source package manager for macOS and Linux. Think of it             like an "App store" for developers. If you do not have it installed, click [here](https://brew.sh/). Otherwise, skip to next            step. 
+      - Open your terminal, and type out the following code:
+         <code class="hljs language-shell">$ brew install git</code>
+      - note: brew historically takes foreverrrr to download, so do this on a day where you know you won't have to run a lot of                 terminal commands that day, and can also keep your computer on until the download completes.
+      - Not sure if you have git downloaded already? No problem, try this:
+        <code class="hljs language-shell">$ git --version </code>
+      - If this returns with nothing, then download git. If it returns with something like this...Then you are all set to move onto the         next step, and can use Git commands from your terminal:
+        
+   <code class="hljs language-shell">
+   (base) Leanns-MacBook-Pro:~ froglord$ git --version git 
+   version 2.37.1 (Apple Git-137.1)
+   </code>    
+      
+        
+3.  Create a new repository. Here is the quick start [documentation](https://docs.github.com/en/repositories/creating-and-managing-repositories/quickstart-for-repositories).
+
+4. As part of good practice, always include a README file with your repository. This is as simple as toggling on the "Add README" part when you initially create the repo.
    
-3. Optional, but you can also toggle on .gitignore if you know there are files you don't want git to track like for example sensitive script or information, but largely I don't think you will need this function. Also, be sure to include the license Apache 2.0. This license type is legally robust, and supports open-source software. If your downstream intent is to create open source software other scientists or companies can look at and use, then this license type essentially means that you want your code to be free and open-source.
+5. Optional, but you can also toggle on .gitignore if you know there are files you don't want git to track like for example sensitive script or information, but largely I don't think you will need this function. Also, be sure to include the license Apache 2.0. This license type is legally robust, and supports open-source software. If your downstream intent is to create open source software other scientists or companies can look at and use, then this license type essentially means that you want your code to be free and open-source.
 
 ## SSH Keys 
 
