@@ -8,21 +8,23 @@ For basic github commands, please refer to this [link](https://github.com/Reznic
 
 
 ## Crash Course Into Github: 
-Github is used as a version control platform. Long story short, this is a way to track any changes to your files, code, and projects which can be helpful to a large team sharing data. Through this platform, we can see other people's scripts, share data easily amongst ourselves, and also monitor undergrad progress. 
+Github is used as a cloud-based version control platform that uses Git software. Long story short, this is a way to track any changes to your files, code, and projects which can be helpful to a large team sharing data. Through this platform, we can see other people's scripts, share data easily amongst ourselves, and also monitor undergrad progress. 
 
 Folders on Github are called repositories (repos). Repos can be backed up on the github cloud, but can also be stored locally on your computer using the command "git clone". This command will clone your github repo onto your computer, and you can actually push updates from your cloned repository to your github repo. This can be a convenient way to backup your work, and also share your progress with other people. 
 
 For some more basics on best repository practice, please review this [link](https://docs.github.com/en/repositories/creating-and-managing-repositories/best-practices-for-repositories). 
 
+
+
 ## To Start
 
-1. Before doing anything, most of us have MacOS, if you have a Mac device then follow these instructions. Otherwise, if you have Windows, click this [link](https://git-scm.com/install/windows) so you can follow instructions to download Git onto your computer.
+1. Before doing anything, most of us have MacOS, if you have a Mac device then follow these instructions. Otherwise, if you have a Windows device, click this [link](https://git-scm.com/install/windows) so you can follow instructions to download Git onto your computer.
 
    **Mac Users:**
-      - Check to make sure you have homebrew installed. This is a free open-source package manager for macOS and Linux. Think of it             like an "App store" for developers. If you do not have it installed, click [here](https://brew.sh/). Otherwise, skip to next            step. 
+      - Check to make sure you have homebrew installed. This is a free open-source package manager for macOS and Linux. Think of it             like an "App store" for developers. If you do not have it installed, click [here](https://brew.sh/). Otherwise, skip to the             next step. 
       - Open your terminal, and type out the following code:
          <code class="hljs language-shell">$ brew install git</code>
-      - note: brew historically takes foreverrrr to download, so do this on a day where you know you won't have to run a lot of                 terminal commands that day, and can also keep your computer on until the download completes.
+      - note: brew packages historically takes foreverrrr to download, so do this on a day where you know you won't have to run a lot           of terminal commands that day, and can also keep your computer on until the download completes.
       - Not sure if you have git downloaded already? No problem, try this:
         <code class="hljs language-shell">$ git --version </code>
       - If this returns with nothing, then download git. If it returns with something like this...Then you are all set to move onto the         next step, and can use Git commands from your terminal:
@@ -51,7 +53,7 @@ Once you've created your SSH Key, add that key onto Github using this [documenta
 
 HOORAY! You've made your SSH key, now you're ready clone your repo to your local repository: 
 
-### Cloning into an existing Repository: 
+### Cloning into an existing Repository:
 Access your terminal, and use this code:  
 
 <pre> <code class="hljs language-shell">
@@ -78,15 +80,27 @@ Then, use command 'git clone "paste link"'. Checkout the preview below to see wh
  There ya go! You've connected your remote repository to your existing repository! 
 
  ### Cloning into an empty repository 
-If you want to create a new repository for an upcoming project, use the same commands from above but use this new command below. 
+If you want to create a new repository for an upcoming project, you'll need to create a directory where your cloned repository will live in. Use the below shell commands from above, but also use this new command below. 
 
 <pre><code class="hljs language-shell">
-   user$ mkdir "Folder Name" //use this command to make a new folder, keep repo name the same as the repo you're cloning from github. 
+   user$ mkdir foldername //use this command to make a new folder, keep repo name the same as the repo you're cloning from github. 
 </code></pre>
 
 mkdir: "make directory" which creates a new folder. 
 
-Happy coding! 
+Want to learn more shell commands that will save you lots more time? Click [here!](https://simon-m-mudd.github.io/NMDM_book/#_commands_that_will_save_you_vast_amounts_of_time)
+
+
+### Additional information (for funsies) 
+  - You may come across a command called <code class="hljs language-shell"> $ git init // git initialize</code>
+    this is for repositories that are not yet under git, but are initialized to start tracking changes through git. This is **not** to      be confused with <code class="hljs language-shell"> $ git clone </code>. Cloning a repository is only for repos that have remote        repo configured. Git initialize will still track changes through the git software, but you can not push changes onto github unless      you have a corresponding remote repository attached.
+
+  - This feature does have some advantages though, as you can track version changes on your script using git init if you don't want it      visible on your github page just yet.
+
+  - Okay, so if my repo is not cloned from a remote repository, how is git saving all my versio changes? So, this is the cool part          about Git. There is a hidden .git folder attached to your repo. It is a hidden directory that has all the information stored of         your version changes. You can adjust your settings to view the folder if you want to, but it's best not to touch it so you don't        break anything. 
+    
+Happy coding!
+
 
 
 
