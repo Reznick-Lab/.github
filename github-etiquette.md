@@ -1,4 +1,7 @@
-# Some Basic Rules for Github 
+# Some Basic Rules/Tips for our Github Org Page
+
+🚧👷‍♂️ SITE STILL UNDERGOING CONSTRUCTION 👷‍♂️🚧
+
 1. Write scripts in your personal folder, unless you are working in teams.
 2. While working in shared repos, please 'git branch' new commits/changes before pushing to main repo.
 3. When committing changes, please write meaningful messages that are detailed and informative.
