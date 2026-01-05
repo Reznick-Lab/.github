@@ -2,7 +2,9 @@
 Intro to Reznick Github 
 
 ## WELCOME
-This platform's intended use is to share code, project files, and data easily across our lab. This is also a convenient way to track student progress if they were to work on your repository.
+This platform's intended use is to share code, project files, and data easily across our lab. This is also a convenient way to track student progress if they were to work on your repository. This repository is reserved *ONLY* for informational guidelines such as how to set up a repository, github ettiquette/tips, and also how to use github. Below is a quick crash course on how to get you started with your repository building. 
+
+For basic github commands, please refer to this [link](github link to git-hub commands markdown file). 
 
 
 ## Crash Course Into Github: 
@@ -68,6 +70,8 @@ If you want to create a new repository for an upcoming project, use the same com
 mkdir: "make directory" which creates a new folder. 
 
 Happy coding! 
+
+
 
 
 
