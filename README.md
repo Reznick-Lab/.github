@@ -14,7 +14,15 @@ Folders on Github are called repositories (repos). Repos can be backed up on the
 
 For some more basics on best repository practice, please review this [link](https://docs.github.com/en/repositories/creating-and-managing-repositories/best-practices-for-repositories). 
 
+## Why Use Github? 
 
+Originally, Github is a great tool used for software development. Having a central repository that people can clone into, add onto, and fork updates from has a been a great way to push application development. The concept of github revolves around the idea that remote repositories can be shared and accessed easily amongst collaborators to produce scalable and reproduceable work. So, in many ways, there is a lot of overlap in the workflow of a software developer and a researcher. 
+
+From a research perspective, if you are someone analyzing data and writing scripts for that data, you can use github as a platform to backup some of those files onto a cloud. You can set your repository to private, and quietly track changes. Github can also be a great record keeping platform where you can store lab notes, analysis code, and presentations. After publications, github can be a great way to share your data analysis workflows with other collaborators too. As you already may have experience with, you can find many R packages posted here on github that you can use in your regular work like [ColorMesh](https://github.com/J0vid/Colormesh/blob/master/README.md). 
+
+Besides just personal every day use, github could also be an easy way to showcase work you have done as like a virtual resume that you can link to your web page, LinkedIn, and more. 
+
+[This article](https://pmc.ncbi.nlm.nih.gov/articles/PMC11844616/) also provides some great insight into a group's approach to collaborating on github. 
 
 ## To Start
 
@@ -29,11 +37,12 @@ For some more basics on best repository practice, please review this [link](http
         <code class="hljs language-shell">$ git --version </code>
       - If this returns with nothing, then download git. If it returns with something like this...Then you are all set to move onto the         next step, and can use Git commands from your terminal:
         
-   <code class="hljs language-shell">
+```
    (base) Leanns-MacBook-Pro:~ froglord$ git --version git 
    version 2.37.1 (Apple Git-137.1)
-   </code>    
-      
+```
+   
+**alternatively you can also use [Github Desktop](https://docs.github.com/en/desktop) or [GLI](https://docs.github.com/en/github-cli), but this guide will only cover using Git commands through the terminal** 
         
 3.  Create a new repository. Here is the quick start [documentation](https://docs.github.com/en/repositories/creating-and-managing-repositories/quickstart-for-repositories).
 
@@ -97,9 +106,9 @@ Then, use command 'git clone "paste link"'. Checkout the preview below to see wh
  ### Cloning into an empty repository 
 If you want to create a new repository for an upcoming project, you'll need to create a directory where your cloned repository will live in. Use the below shell commands from above, but also use this new command below. 
 
-<pre><code class="hljs language-shell">
+```
    user$ mkdir foldername //use this command to make a new folder, keep repo name the same as the repo you're cloning from github. 
-</code></pre>
+```
 
 mkdir: "make directory" which creates a new folder. 
 
