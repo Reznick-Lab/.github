@@ -54,18 +54,33 @@ Once you've created your SSH Key, add that key onto Github using this [documenta
 HOORAY! You've made your SSH key, now you're ready clone your repo to your local repository: 
 
 ### Cloning into an existing Repository:
-Access your terminal, and use this code:  
+Access your terminal, and refer to these shell commands to get to the directory you want to connect to a remote repository:  
 
-<pre> <code class="hljs language-shell">
-   user$ ls //lists folders/files 
-   user$ cd [folder you want to access] //change directory 
-   user$ pwd //print working directory-> use to check if you are in right folder. 
-</code></pre>
+- lists folders and files 
+```
+   $ ls //lists folders and files
+```
+- change directories
+```
+   $ cd [folder you want to access] 
+```
+- print working directory. Use this to check if you are in right folder
+```
+   user$ pwd //print working directory
+```
+- went into wrong folder? no problem.. use this shell command to go back a step
+```
+   user$ cd..
+```
 
-  Once you've confirmed that you are in the right folder, copy the HTTPS link from your github repo (refer to image below). 
+
+  Once you've confirmed that you are in the right folder, copy the SSH link from your github repo! Ex: 
+
+  ```
+  git@github.com:Reznick-Lab/.github.git
+  ```
   
-  <img width="926" height="694" alt="image" src="https://github.com/user-attachments/assets/d535a3a6-324e-4503-a6d9-bbf2ee73dfe5" />)
-
+  
 Then, use command 'git clone "paste link"'. Checkout the preview below to see what your terminal should look like: 
  <pre> 
    <code class="hljs langauage-shell"> 
@@ -77,7 +92,7 @@ Then, use command 'git clone "paste link"'. Checkout the preview below to see wh
    Receiving objects: 100% (3/3), done.</code>
  </pre>
 
- There ya go! You've connected your remote repository to your existing repository! 
+ There ya go! You've connected your remote repository to your existing local repository! 
 
  ### Cloning into an empty repository 
 If you want to create a new repository for an upcoming project, you'll need to create a directory where your cloned repository will live in. Use the below shell commands from above, but also use this new command below. 
