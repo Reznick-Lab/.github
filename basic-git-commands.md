@@ -4,7 +4,7 @@ In the crash course, I covered some basic command line keywords to access folder
 
 For those of you who are trying to navigate how to create your own README/instructional files, I've found a neat markdown cheatsheet you can access [here](https://www.markdownguide.org/cheat-sheet/)
 
-There are a lot of features of github you can access just straight from the browser. For example, I am not currently using a text editor to draft this tutorial. I am directly typing out this tutorial directly into the github editor file which works just fine. However, to gain more control over Git and it's features, it's important to be familiar with some basic comands to perform actions on your local repositories. I will go over some basic commands below, but for more information checkout this awesome page actually deployed through github about [Numeracy, Modelling and Data Management for the Natural Sciences](https://simon-m-mudd.github.io/NMDM_book/#_version_control_with_git). This is a great resource if you plan on integrating Git into more of your projects down the line. 
+There are a lot of features of github you can access just straight from the browser. For example, I am not currently using a 3rd party text editor to draft this tutorial. I am directly typing out this tutorial directly into the github editor file which works just fine. However, to gain more control over Git and it's features, it's important to be familiar with some basic comands to perform actions on your local repositories. I will go over some basic commands below, but for more information checkout this awesome page actually deployed through github about [Numeracy, Modelling and Data Management for the Natural Sciences](https://simon-m-mudd.github.io/NMDM_book/#_version_control_with_git). This is a great resource if you plan on integrating Git into more of your projects down the line. 
 
 Here is a great image to explain the mechanics how your Local Repository (or the repo on your computer) and your remote repository on github interact with each other. This will give you a good visual of what the below git commands mean, and how they affect your repositories. 
 
@@ -14,35 +14,7 @@ Here is a great image to explain the mechanics how your Local Repository (or the
 
 ## Github Commands 
 
+Please find below some basic Git commands you can use... 
 
+![github commands](https://substackcdn.com/image/fetch/$s_!vvWo!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe8a1b87f-c431-48f0-af52-b4f36825841c_811x976.png)
 
-<table> 
-  <tbody>
-    <tr>
-      <th>Command</th>
-      <th>Origin</th>
-      <th>Destination</th>
-      <th>Description</th>
-    </tr>
-    <tr>
-    <th>
-      <code>git clone "link to remote repository on github" </code> 
-    </th>
-    <th>Personal Github Repository</th>
-    <th>Local Repository</th>
-    <th></th>
-    </tr>
-    <tr>
-      <th><code></code></th>
-      <th></th>
-      <th></th>
-      <th></th>
-    </tr>
-    <tr>
-      <th><code></code></th>
-      <th></th>
-      <th></th>
-      <th></th>
-    </tr>
-  </tbody>
-</table>
