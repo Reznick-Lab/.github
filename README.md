@@ -72,9 +72,9 @@ Access your terminal, and refer to these shell commands to get to the directory 
 ```
     ls
 ```
-- change directories
+- change directories to get to the folder you'd like to access 
 ```
-   cd [folder you want to access] 
+   cd 
 ```
 - print working directory. Use this to check if you are in right folder
 ```
@@ -82,7 +82,7 @@ Access your terminal, and refer to these shell commands to get to the directory 
 ```
 - went into wrong folder? no problem.. use this shell command to go back a step
 ```
-   user$ cd..
+   cd..
 ```
 
 
