@@ -58,11 +58,12 @@ If this is your first time on github, you will need to create an [SSH key](https
 
 Once you've created your SSH Key, add that key onto Github using this [documentation](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)
 
-## Cloning your repository 
+## Shell Commands and Creating Repositories 
 
 HOORAY! You've made your SSH key, now you're ready clone your repo to your local repository: 
 
-### Cloning into an existing Repository:
+### Some Useful Shell Commands 
+
 Access your terminal, and refer to these shell commands to get to the directory you want to connect to a remote repository:  
 
 - lists folders and files 
@@ -83,13 +84,18 @@ Access your terminal, and refer to these shell commands to get to the directory 
 ```
 
 
-  Once you've confirmed that you are in the right folder, copy the SSH link from your github repo! Ex: 
+  Once you've confirmed that you are in the right folder, following these github commands: 
 
-  ```
-  git@github.com:Reznick-Lab/.github.git
-  ```
-  
-  
+```
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:Reznick-Lab/.github.git //SSH key
+git push -u origin main
+
+```
+
 Then, use command 'git clone "paste link"'. Checkout the preview below to see what your terminal should look like: 
  <pre> 
    <code class="hljs langauage-shell"> 
