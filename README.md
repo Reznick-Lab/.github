@@ -46,7 +46,7 @@ Besides just personal every day use, github could also be an easy way to showcas
    
 **alternatively you can also use [Github Desktop](https://docs.github.com/en/desktop) or [GLI](https://docs.github.com/en/github-cli), but this guide will only cover using Git commands through the terminal** 
         
-3.  Create a new repository. Here is the quick start [documentation](https://docs.github.com/en/repositories/creating-and-managing-repositories/quickstart-for-repositories).
+3.  Create a new repository with the same name as your local repository or folder. You will connect your local repository to your remote repository in later steps. Here is some quick start [documentation](https://docs.github.com/en/repositories/creating-and-managing-repositories/quickstart-for-repositories) you can read into for more help.
 
 4. As part of good practice, always include a README file with your repository. This is as simple as toggling on the "Add README" part when you initially create the repo.
    
@@ -62,7 +62,7 @@ Once you've created your SSH Key, add that key onto Github using this [documenta
 
 ## Shell Commands and Creating Repositories 
 
-HOORAY! You've made your SSH key, now you're ready clone your repo to your local repository: 
+HOORAY! You've made your SSH key, now you're ready connect your github (remote) repo to your local repository: 
 
 ### Some Useful Shell Commands 
 
@@ -70,15 +70,15 @@ Access your terminal, and refer to these shell commands to get to the directory 
 
 - lists folders and files 
 ```
-   $ ls //lists folders and files
+    ls
 ```
 - change directories
 ```
-   $ cd [folder you want to access] 
+   cd [folder you want to access] 
 ```
 - print working directory. Use this to check if you are in right folder
 ```
-   user$ pwd //print working directory
+   pwd 
 ```
 - went into wrong folder? no problem.. use this shell command to go back a step
 ```
@@ -94,19 +94,21 @@ Once you've confirmed that you are in the right folder, following these github c
 ```
 git init
 ```
-2. Add a README file to your project folder
+2. Add a README file to your project folder (optional).
+   
+*if you made a README on your remote repository, you can skip this step* 
 ```
 git add README.md
 ```
-3. Make your first commit!
+3. Make your first commit! This is really important before you push changes to remote repository. If you do not complete this step, you will get receive an error. 
 ```
 git commit -m "first commit"
 ```
-4. Here you create your first branch, which is called "main".
+4. Local repository works on Master branch by default, must create a main branch
 ```
 git branch -M main
 ```
-5. Connect your remote repository using the SSH key you created
+6. Connect your remote repository using the SSH key you created
 ```
 git remote add origin git@github.com:Reznick-Lab/.github.git //SSH key for this repo-> use ur own repo!
 ```
@@ -115,20 +117,17 @@ git remote add origin git@github.com:Reznick-Lab/.github.git //SSH key for this 
 git push -u origin main
 ```
 
-Then, use command 'git clone "paste link"'. Checkout the preview below to see what your terminal should look like: 
- <pre> 
-   <code class="hljs langauage-shell"> 
-   (base) ucr-secure-01-fs-10-12-135-176:test froglord$ git clone https://github.com/leann-labra/test.git
-   Cloning into 'test'...
-   remote: Enumerating objects: 3, done.
-   remote: Counting objects: 100% (3/3), done.
-   remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
-   Receiving objects: 100% (3/3), done.</code>
- </pre>
-
  There ya go! You've connected your remote repository to your existing local repository! 
 
- ### Cloning into an empty repository 
+**Helpful Tips** 
+  If you encounter any errors or issues, use stack overflow as a good resource for trouble shooting. For any git related issues you may encounter, use 
+  ```
+git status 
+```
+frequently to check if you have an unstaged commits, or files that need to be added. For more git commands, check out this [page](https://github.com/Reznick-Lab/.github/blob/main/basic-git-commands.md) as a handy resource! 
+
+### Cloning from an empty or new repository 
+
 If you want to create a new repository for an upcoming project, you'll need to create a directory where your cloned repository will live in. Use the below shell commands from above, but also use this new command below. 
 
 ```
