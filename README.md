@@ -26,7 +26,7 @@ Besides just personal every day use, github could also be an easy way to showcas
 
 [This article](https://pmc.ncbi.nlm.nih.gov/articles/PMC11844616/) also provides some great insight into a group's approach to collaborating on github. 
 
-## To Start
+## To Start: Downloading Git through homebrew
 
 1. Before doing anything, most of us have MacOS, if you have a Mac device then follow these instructions. Otherwise, if you have a Windows device, click this [link](https://git-scm.com/install/windows) so you can follow instructions to download Git onto your computer.
 
@@ -86,16 +86,33 @@ Access your terminal, and refer to these shell commands to get to the directory 
 ```
 
 
-  Once you've confirmed that you are in the right folder, following these github commands: 
+### Connecting your remote repository to your local one
 
+Once you've confirmed that you are in the right folder, following these github commands: 
+
+1. Initialize git on your terminal. 
 ```
 git init
+```
+2. Add a README file to your project folder
+```
 git add README.md
+```
+3. Make your first commit!
+```
 git commit -m "first commit"
+```
+4. Here you create your first branch, which is called "main".
+```
 git branch -M main
-git remote add origin git@github.com:Reznick-Lab/.github.git //SSH key
+```
+5. Connect your remote repository using the SSH key you created
+```
+git remote add origin git@github.com:Reznick-Lab/.github.git //SSH key for this repo-> use ur own repo!
+```
+6. Push files onto your remote main branch
+```
 git push -u origin main
-
 ```
 
 Then, use command 'git clone "paste link"'. Checkout the preview below to see what your terminal should look like: 
