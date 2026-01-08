@@ -7,9 +7,13 @@ This is the official Reznick Lab Github! Please feel free to use this platform t
 ## Lab Mates 
 If you've just starting getting used to this platform, please go to [this](../README.md) page to get yourself started off on some basics. 
 
+### Other Helpful Pages 
+- [Basic Git Hub Commands](../basic-git-commands.md)
+- [Rules for this Org](../github-etiquette.md)
+
 Note: Repositories uploaded to this organization are *project based* that way it's easier to find files especially if you are working on projects that share the same kind of code, as an example. 
 
-## Future development 
+## 🚧 Future development 🚧
 - this might be a great page to add some information about each of us that we can reference in this profile page. Especially if you'd like to advertise your work with other collaborators through this platform! I'm thinking that we can add a "Our Lab" section in this profile launch page. 
 
 <!--
