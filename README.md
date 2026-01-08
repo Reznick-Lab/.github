@@ -1,6 +1,8 @@
 # .github
 Intro to Reznick Github 
 
+🚧🔨SITE STILL UNDER CONSTRUCTION🔨🚧
+
 ## WELCOME
 This platform's intended use is to share code, project files, and data easily across our lab. This is also a convenient way to track student progress if they were to work on your repository. This repository is reserved *ONLY* for informational guidelines such as how to set up a repository, github ettiquette/tips, and also how to use github. Below is a quick crash course on how to get you started with your repository building. 
 
