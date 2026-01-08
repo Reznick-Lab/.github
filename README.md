@@ -119,7 +119,7 @@ git push -u origin main
 
  There ya go! You've connected your remote repository to your existing local repository! 
 
-**Helpful Tips** 
+**Helpful Tips!** 
   If you encounter any errors or issues, use stack overflow as a good resource for trouble shooting. For any git related issues you may encounter, use 
   ```
 git status 
