@@ -20,7 +20,7 @@ For some more basics on best repository practice, please review this [link](http
 
 Originally, Github is a great tool used for software development. Having a central repository that people can clone into, add onto, and fork updates from has a been a great way to push application development. The concept of github revolves around the idea that remote repositories can be shared and accessed easily amongst collaborators to produce scalable and reproduceable work. So, in many ways, there is a lot of overlap in the workflow of a software developer and a researcher. 
 
-From a research perspective, if you are someone analyzing data and writing scripts for that data, you can use github as a platform to backup some of those files onto a cloud. You can set your repository to private, and quietly track changes. Github can also be a great record keeping platform where you can store lab notes, analysis code, and presentations. After publications, github can be a great way to share your data analysis workflows with other collaborators too. As you already may have experience with, you can find many R packages posted here on github that you can use in your regular work like [ColorMesh](https://github.com/J0vid/Colormesh/blob/master/README.md). 
+From a research perspective, if you are someone analyzing data and writing scripts for that data, you can use github as a platform to backup some of those files onto a cloud. You can set your repository to private, and quietly track changes. Github can also be a great record keeping platform where you can store lab notes, analysis code, and presentations. After publications, github can be a great way to share your data analysis workflows with other collaborators too. As you already may have experience with, you can find many R packages posted here on github that you can use in your regular work like [ColorMesh],(https://github.com/J0vid/Colormesh/blob/master/README.md). 
 
 Besides just personal every day use, github could also be an easy way to showcase work you have done as like a virtual resume that you can link to your web page, LinkedIn, and more. 
 
@@ -50,7 +50,9 @@ Besides just personal every day use, github could also be an easy way to showcas
 
 4. As part of good practice, always include a README file with your repository. This is as simple as toggling on the "Add README" part when you initially create the repo.
    
-5. Optional, but you can also toggle on .gitignore if you know there are files you don't want git to track like for example sensitive script or information, but largely I don't think you will need this function. Also, be sure to include the license Apache 2.0. This license type is legally robust, and supports open-source software. If your downstream intent is to create open source software other scientists or companies can look at and use, then this license type essentially means that you want your code to be free and open-source.
+5. Optional, but you can also toggle on .gitignore if you know there are files you don't want git to track like for example sensitive script or information, but largely I don't think you will need this function.
+  
+7. Also, be sure to include the license **Apache 2.0**. This license type is legally robust, and supports open-source software. If your downstream intent is to create open source software other scientists or companies can look at and use, then this license type essentially means that you want your code to be free and open-source. You'll find that most people use MIT License which is also fine to use as well. It's up to you ultimately!
 
 ## SSH Keys 
 
@@ -70,19 +72,19 @@ Access your terminal, and refer to these shell commands to get to the directory 
 
 - lists folders and files 
 ```
-    ls
+$ ls
 ```
 - change directories to get to the folder you'd like to access 
 ```
-   cd 
+$ cd 
 ```
 - print working directory. Use this to check if you are in right folder
 ```
-   pwd 
+$ pwd 
 ```
 - went into wrong folder? no problem.. use this shell command to go back a step
 ```
-   cd..
+$ cd..
 ```
 
 
@@ -92,37 +94,37 @@ Once you've confirmed that you are in the right folder, following these github c
 
 1. Initialize git on your terminal. 
 ```
-git init
+$ git init
 ```
 2. Add a README file to your project folder (optional).
    
 *if you made a README on your remote repository, you can skip this step* 
 ```
-git add README.md
+$ git add README.md
 ```
 3. Make your first commit! This is really important before you push changes to remote repository. If you do not complete this step, you will get receive an error. 
 ```
-git commit -m "first commit"
+$ git commit -m "first commit"
 ```
 4. Local repository works on Master branch by default, must create a main branch
 ```
-git branch -M main
+$ git branch -M main
 ```
 6. Connect your remote repository using the SSH key you created
 ```
-git remote add origin git@github.com:Reznick-Lab/.github.git //SSH key for this repo-> use ur own repo!
+$ git remote add origin git@github.com:Reznick-Lab/.github.git //SSH key for this repo-> use ur own repo!
 ```
 6. Push files onto your remote main branch
 ```
-git push -u origin main
+$ git push -u origin main
 ```
 
  There ya go! You've connected your remote repository to your existing local repository! 
 
 **Helpful Tips!** 
   If you encounter any errors or issues, use stack overflow as a good resource for trouble shooting. For any git related issues you may encounter, use 
-  ```
-git status 
+```
+$ git status 
 ```
 frequently to check if you have an unstaged commits, or files that need to be added. For more git commands, check out this [page](https://github.com/Reznick-Lab/.github/blob/main/basic-git-commands.md) as a handy resource! 
 
@@ -131,7 +133,7 @@ frequently to check if you have an unstaged commits, or files that need to be ad
 If you want to create a new repository for an upcoming project, you'll need to create a directory where your cloned repository will live in. Use the below shell commands from above, but also use this new command below. 
 
 ```
-   user$ mkdir foldername //use this command to make a new folder, keep repo name the same as the repo you're cloning from github. 
+$ mkdir foldername //use this command to make a new folder, keep repo name the same as the repo you're cloning from github. 
 ```
 
 mkdir: "make directory" which creates a new folder. 
