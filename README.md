@@ -1,5 +1,5 @@
 # .github
-Intro to Reznick Github 
+READ ME FIRST: Intro to Reznick Lab Github Org 
 
 🚧🔨SITE STILL UNDER CONSTRUCTION🔨🚧
 
