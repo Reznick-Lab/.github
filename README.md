@@ -20,7 +20,7 @@ For some more basics on best repository practice, please review this [link](http
 
 Originally, Github is a great tool used for software development. Having a central repository that people can clone into, add onto, and fork updates from has a been a great way to push application development. The concept of github revolves around the idea that remote repositories can be shared and accessed easily amongst collaborators to produce scalable and reproduceable work. So, in many ways, there is a lot of overlap in the workflow of a software developer and a researcher. 
 
-From a research perspective, if you are someone analyzing data and writing scripts for that data, you can use github as a platform to backup some of those files onto a cloud. You can set your repository to private, and quietly track changes. Github can also be a great record keeping platform where you can store lab notes, analysis code, and presentations. After publications, github can be a great way to share your data analysis workflows with other collaborators too. As you already may have experience with, you can find many R packages posted here on github that you can use in your regular work like [ColorMesh],(https://github.com/J0vid/Colormesh/blob/master/README.md). 
+From a research perspective, if you are someone analyzing data and writing scripts for that data, you can use github as a platform to backup some of those files onto a cloud. You can set your repository to private, and quietly track changes. Github can also be a great record keeping platform where you can store lab notes, analysis code, and presentations. After publications, github can be a great way to share your data analysis workflows with other collaborators too. As you already may have experience with, you can find many R packages posted here on github that you can use in your regular work like [ColorMesh](https://github.com/J0vid/Colormesh/blob/master/README.md) or [BiocManager](https://github.com/Bioconductor/BiocManager). 
 
 Besides just personal every day use, github could also be an easy way to showcase work you have done as like a virtual resume that you can link to your web page, LinkedIn, and more. 
 
@@ -45,8 +45,12 @@ Besides just personal every day use, github could also be an easy way to showcas
 ```
    
 **alternatively you can also use [Github Desktop](https://docs.github.com/en/desktop) or [GLI](https://docs.github.com/en/github-cli), but this guide will only cover using Git commands through the terminal** 
-        
-3.  Create a new repository with the same name as your local repository or folder. You will connect your local repository to your remote repository in later steps. Here is some quick start [documentation](https://docs.github.com/en/repositories/creating-and-managing-repositories/quickstart-for-repositories) you can read into for more help.
+
+## Create a Repository 
+
+**Background**: a repository is basically github's version of a folder. I will be using repositories, directories, and folders interchangeably throughout this crashcourse. When I refer to a local repository, that is a folder located on your personal device or hard drive that is not yet connected to an online or remote repository 
+
+2.  Create a new repository with the same name as your local repository or folder through github. You will connect your local repository to your remote repository in later steps. Here is some quick start [documentation](https://docs.github.com/en/repositories/creating-and-managing-repositories/quickstart-for-repositories) you can read into for more help. 
 
 4. As part of good practice, always include a README file with your repository. This is as simple as toggling on the "Add README" part when you initially create the repo.
    
@@ -56,13 +60,13 @@ Besides just personal every day use, github could also be an easy way to showcas
 
 ## SSH Keys 
 
-Background: SSH protocol, is a method of authenticating your identity. SSH keys are essentially an authentication credential that offers you remote access to your repository. This means you can update your repository here on github remotely through your local repositories on software like Rstudio or a text editor using git commands without needing to log in every time. By using an SSH key, it tells your computer this is indeed YOU who is accessing YOUR repo, and YOU are pushing these changes. For more background on SSH Keys click [here](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/about-ssh). 
+**Background**: SSH protocol, is a method of authenticating your identity. SSH keys are essentially an authentication credential that offers you remote access to your repository. This means you can update your repository here on github remotely through your local repositories on software like Rstudio or a text editor using git commands without needing to log in every time. By using an SSH key, it tells your computer this is indeed YOU who is accessing YOUR repo, and YOU are pushing these changes. For more background on SSH Keys click [here](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/about-ssh). 
 
 If this is your first time on github, you will need to create an [SSH key](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent). 
 
 Once you've created your SSH Key, add that key onto Github using this [documentation](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)
 
-## Shell Commands and Creating Repositories 
+## Shell Commands and Connecting Repositories 
 
 HOORAY! You've made your SSH key, now you're ready connect your github (remote) repo to your local repository: 
 
@@ -86,7 +90,10 @@ $ pwd
 ```
 $ cd..
 ```
-
+- need to crete a new repository or folder through the terminal? Use shell command to make a new directory
+```
+$ mkdir
+```
 
 ### Connecting your remote repository to your local one
 
@@ -96,23 +103,23 @@ Once you've confirmed that you are in the right folder, following these github c
 ```
 $ git init
 ```
-2. Add a README file to your project folder (optional).
+2.(optional) Add a README file to your project folder.
    
 *if you made a README on your remote repository, you can skip this step* 
 ```
 $ git add README.md
 ```
-3. Make your first commit! This is really important before you push changes to remote repository. If you do not complete this step, you will get receive an error. 
+3. Make your first commit! **This is really important before you push changes to remote repository. If you do not complete this step, you will get receive an error**. 
 ```
 $ git commit -m "first commit"
 ```
-4. Local repository works on Master branch by default, must create a main branch
+4. Local repository works on a master branch by default, you must create a main branch to configure well with github. 
 ```
 $ git branch -M main
 ```
 6. Connect your remote repository using the SSH key you created
 ```
-$ git remote add origin git@github.com:Reznick-Lab/.github.git //SSH key for this repo-> use ur own repo!
+$ git remote add origin git@github.com:Reznick-Lab/.github.git //SSH key for this repo-> use ur own remote repo!
 ```
 6. Push files onto your remote main branch
 ```
@@ -130,24 +137,41 @@ frequently to check if you have an unstaged commits, or files that need to be ad
 
 ### Cloning from an empty or new repository 
 
-If you want to create a new repository for an upcoming project, you'll need to create a directory where your cloned repository will live in. Use the below shell commands from above, but also use this new command below. 
+If you want to create a new repository for an upcoming project, you'll need to create a directory where your cloned repository will live in. 
+
+1. Go to github, and create a new repository. Go back to [this section](##Create-a-Repository) if you need a refresher.
+2. Copy [SSH key](##SSH-keys) from that new repository. 
+3. Go to your terminal, and use the below shell commands below to make a new directory you can clone into. Make sure the directory name is the same as your repository name.
 
 ```
-$ mkdir foldername //use this command to make a new folder, keep repo name the same as the repo you're cloning from github. 
+$ mkdir foldername
 ```
 
-mkdir: "make directory" which creates a new folder. 
+4. Clone remote repository into new local repository using the following git command: 
+```
+$ git clone git@github.com:example-repository/.github.git
+```
+5. A successful clone command should look like this:
+```
+froglord$ git clone git@github.com:example-repository/.github.git
+Cloning into 'example-repository'...
+remote: Enumerating objects: 1, done.
+remote: Counting objects: 100% (1/1), done,
+...
+```
+
+If you something went wrong, like if you return a fatal code, then check to make sure you are in the correct folder. Otherwise, copy and paste errors into google to see if Stack Overflow can help. 
+
 
 Want to learn more shell commands that will save you lots more time? Click [here!](https://simon-m-mudd.github.io/NMDM_book/#_commands_that_will_save_you_vast_amounts_of_time)
 
 
 ### Additional information (for funsies) 
-  - You may come across a command called <code class="hljs language-shell"> $ git init // git initialize</code>
-    this is for repositories that are not yet under git, but are initialized to start tracking changes through git. This is **not** to      be confused with <code class="hljs language-shell"> $ git clone </code>. Cloning a repository is only for repos that have remote        repo configured. Git initialize will still track changes through the git software, but you can not push changes onto github unless      you have a corresponding remote repository attached.
+  - What's the difference between ```git init ``` and ```git clone ```? Initilizaing git in a repository are for existing local             repositories that are already populated with files and data. this is for repositories that are not yet under git, but are               initialized to start tracking changes through git. This is **not** to be confused with ```$ git clone ```. Cloning a repository is      best used for repos that are from scratch. That's not to say you can't use the clone command to push an existing repository to          your remote one! ```git init ``` is just exlusively for git version control tracking, and git cloning is more of a github command       to link local repositores to a remote platfrom (github). For example, git initialize will still track changes through the git           software, but you can not push changes onto github unless you have a corresponding remote repository attached.
 
   - This feature does have some advantages though, as you can track version changes on your script using git init if you don't want it      visible on your github page just yet.
 
-  - Okay, so if my repo is not cloned from a remote repository, how is git saving all my versio changes? So, this is the cool part          about Git. There is a hidden .git folder attached to your repo. It is a hidden directory that has all the information stored of         your version changes. You can adjust your settings to view the folder if you want to, but it's best not to touch it so you don't        break anything. 
+  - Okay, so if my repo is not cloned from a remote repository, how is git saving all my version changes? So, this is the cool part          about Git. There is a hidden .git folder attached to your repo. It is a hidden directory that has all the information stored of         your version changes. You can adjust your settings to view the folder if you want to, but it's best not to touch it so you don't        break anything. 
     
 Happy coding!
 
