@@ -12,7 +12,7 @@ For basic github commands, please refer to this [link](https://github.com/Reznic
 ## Crash Course Into Github: 
 Github is used as a cloud-based version control platform that uses Git software. Long story short, this is a way to track any changes to your files, code, and projects which can be helpful to a large team sharing data. Through this platform, we can see other people's scripts, share data easily amongst ourselves, and also monitor undergrad progress. 
 
-Folders on Github are called repositories (repos). Repos can be backed up on the github cloud, but can also be stored locally on your computer using the command "git clone". This command will clone your github repo onto your computer, and you can actually push updates from your cloned repository to your github repo. This can be a convenient way to backup your work, and also share your progress with other people. 
+Folders on Github are called repositories (repos). Repos can be backed up on the github cloud, but can also be stored locally on your computer using the command either "git init" or "git clone". These updates will initialize git on your local repos, and also create a pathway to link your local repo to a remote one stored here on github. This can be a convenient way to backup your work, and also share your progress with other people. 
 
 For some more basics on best repository practice, please review this [link](https://docs.github.com/en/repositories/creating-and-managing-repositories/best-practices-for-repositories). 
 
@@ -60,11 +60,13 @@ Besides just personal every day use, github could also be an easy way to showcas
 
 ## SSH Keys 
 
-**Background**: SSH protocol, is a method of authenticating your identity. SSH keys are essentially an authentication credential that offers you remote access to your repository. This means you can update your repository here on github remotely through your local repositories on software like Rstudio or a text editor using git commands without needing to log in every time. By using an SSH key, it tells your computer this is indeed YOU who is accessing YOUR repo, and YOU are pushing these changes. For more background on SSH Keys click [here](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/about-ssh). 
+**Background**: SSH protocol, is a method of authenticating your identity. SSH keys are essentially an authentication credential that offers you remote access to your repository. This means you can update your repository on github remotely through your local repositories on software like Rstudio or a text editor using git commands without needing to log in every time. By using an SSH key, it tells your computer this is indeed YOU who is accessing YOUR repo, and YOU are pushing these changes. For more background on SSH Keys click [here](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/about-ssh). 
 
 If this is your first time on github, you will need to create an [SSH key](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent). 
 
 Once you've created your SSH Key, add that key onto Github using this [documentation](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)
+
+If you'd rather deal with this later, you can always just clone a repository using an HTTPS link connected to your remote. The main caveat is that you'll have to add your username and password in the command line each time you push changes upstream. 🤷‍♀️
 
 ## Shell Commands and Connecting Repositories 
 
