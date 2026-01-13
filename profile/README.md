@@ -2,7 +2,7 @@
 
 This is the official Reznick Lab Github! Please feel free to use this platform to upload code you'd like to share with each other or collaborators. Our PI, [David Reznick](https://davidreznick.weebly.com/evolution-of-the-placenta.html), focuses on Life History Evolution of Trinidadian guppies and the Evolution of the Placenta in Poeciliids. 
 
-This organization is a collaborative space between our lab memebers that catalogs some our active and ongoing projects in our lab that include R code, bioinformatic workflows, and other protocols. 
+This organization is a collaborative space between our lab members that catalogs some our active and ongoing projects in our lab that include R code, bioinformatic workflows, and other protocols. 
 
 **🚧🔨SITE STILL UNDER CONSTRUCTION🔨🚧**
 
@@ -10,15 +10,17 @@ This organization is a collaborative space between our lab memebers that catalog
 Interested in our lab and what we do? We are not hiring now, but may be hiring again in the near future. If you want to be included on our email list if you are interested in interviewing for a slot later this year, please fill out our interest form [here](https://docs.google.com/forms/d/e/1FAIpQLScYGDfnktT6SIgclIAXQzwFNms6mFDjh68UtSVYZFXaGMU5jQ/viewform?usp=dialog)!
 
 ## Lab Mates 
-If you've just starting getting used to this platform, please go to [this](../README.md) page to get yourself started off on some basics. 
 
-### Other Helpful Pages 
+If you've just starting getting used to this platform, please first go to [this](../README.md) page to get yourself started off on some basics. 
+
+## Other Helpful Pages 
 - [Basic Git Hub Commands](../basic-git-commands.md)
 - [Rules for this Org](../github-etiquette.md)
 
 Note: Repositories uploaded to this organization are *project based* that way it's easier to find files especially if you are working on projects that share the same or similar scripts.
 
 ## 🚧 Future development 🚧
+**🚧🔨SECTION UNDER CONSTRUCTION WAITING INPUT🔨🚧**
 - this might be a great page to add some information about each of us that we can reference in this profile page. Especially if you'd like to advertise your work with other collaborators through this platform! I'm thinking that we can add a "Our Lab" section in this profile launch page. 
 
 <!--
