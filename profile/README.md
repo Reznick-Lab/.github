@@ -1,6 +1,6 @@
 ## Hi there 👋
 
-This is the official Reznick Lab Github! Please feel free to use this platform to upload code you'd like to share with each other or collaborators. Our PI, [David Reznick](https://davidreznick.weebly.com/evolution-of-the-placenta.html), focuses on Life History Evolution of Trinidadian guppies and the Evolution of the Placenta in Poeciliids. 
+This is the official Reznick Lab Github! We are based in the University of California, Riverside. Please feel free to use this platform to upload code you'd like to share among lab mates or collaborators. Our PI, [David Reznick](https://davidreznick.weebly.com/evolution-of-the-placenta.html), focuses on Life History Evolution of Trinidadian guppies and the Evolution of the Placenta in Poeciliids. 
 
 This organization is a collaborative space between our lab members that catalogs some our active and ongoing projects in our lab that include R code, bioinformatic workflows, and other protocols. 
 
