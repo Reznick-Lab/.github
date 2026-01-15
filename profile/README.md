@@ -7,7 +7,7 @@ This organization is a collaborative space between our lab members that catalogs
 **🚧🔨SITE STILL UNDER CONSTRUCTION🔨🚧**
 
 ## Table of Contents 📝
-1. [Active Collaborators](#Active-Collaborators)
+1. [Active Collaborators](#Active-Collaborators-🧬👩‍🔬)
 2. [Meet our Lab](###Meet-our-Lab) 
 3. [Helpful Pages](#Helpful-Pages)
 
