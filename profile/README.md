@@ -7,9 +7,9 @@ This organization is a collaborative space between our lab members that catalogs
 **🚧🔨SITE STILL UNDER CONSTRUCTION🔨🚧**
 
 ## Table of Contents 📝
-1. [Active Collaborators](##active-collaborators-🧬👩‍🔬)
-2. [Meet our Lab](###Meet-our-Lab) 
-3. [Helpful Pages](#Helpful-Pages)
+1. [Active Collaborators](https://github.com/Reznick-Lab/.github/blob/main/profile/README.md#active-collaborators-%E2%80%8D)
+2. [Meet our Lab](https://github.com/Reznick-Lab/.github/edit/main/profile/README.md#helpful-pages-) 
+3. [Helpful Pages](https://github.com/Reznick-Lab/.github/edit/main/profile/README.md#helpful-pages-)
 
 ### Prospective Students 👩‍🎓🧑‍🎓👨‍🎓
 Interested in our lab and what we do? We are not hiring now, but may be hiring again in the near future. If you want to be included on our email list if you are interested in interviewing for a slot later this year, please fill out our interest form [here](https://docs.google.com/forms/d/e/1FAIpQLScYGDfnktT6SIgclIAXQzwFNms6mFDjh68UtSVYZFXaGMU5jQ/viewform?usp=dialog)!
