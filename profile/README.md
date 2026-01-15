@@ -21,7 +21,8 @@ Interested in our lab and what we do? We are not hiring now, but may be hiring a
 If you've just starting getting used to this platform, please first go to [this](../README.md) page to get yourself started off on some basics. 
 
 ### Meet our Lab 🔬
-- this might be a great page to add some information about each of us that we can reference in this profile page. Especially if you'd like to advertise your work with other collaborators through this platform! I'm thinking that we can add a "Our Lab" section in this profile launch page.
+**🚧🔨SITE STILL UNDER CONSTRUCTION🔨🚧**
+***will add grad student list of profiles linked to separate page also on .github repo***
   
 ## Helpful Pages 📑
 
