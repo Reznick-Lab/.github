@@ -11,11 +11,6 @@ This organization is a collaborative space between our lab members that catalogs
 2. [Meet our Lab](https://github.com/Reznick-Lab/.github/blob/main/profile/README.md#helpful-pages-) 
 3. [Helpful Pages](https://github.com/Reznick-Lab/.github/blob/main/profile/README.md#helpful-pages-)
 
-### Prospective Students 👩‍🎓🧑‍🎓👨‍🎓
-Interested in our lab and what we do? We are not hiring now, but may be hiring again in the near future. If you want to be included on our email list if you are interested in interviewing for a slot later this year, please fill out our interest form [here](https://docs.google.com/forms/d/e/1FAIpQLScYGDfnktT6SIgclIAXQzwFNms6mFDjh68UtSVYZFXaGMU5jQ/viewform?usp=dialog)!
-
-
-
 ## Active Collaborators 🧬👩‍🔬
 
 If you've just starting getting used to this platform, please first go to [this](../README.md) page to get yourself started off on some basics. 
@@ -23,6 +18,9 @@ If you've just starting getting used to this platform, please first go to [this]
 ### Meet our Lab 🔬
 **🚧🔨SITE STILL UNDER CONSTRUCTION🔨🚧**
 ***will add grad student list of profiles linked to separate page also on .github repo***
+
+### Prospective Students 👩‍🎓🧑‍🎓👨‍🎓
+Interested in our lab and what we do? We are not hiring now, but may be hiring again in the near future. If you want to be included on our email list if you are interested in interviewing for a slot later this year, please fill out our interest form [here](https://docs.google.com/forms/d/e/1FAIpQLScYGDfnktT6SIgclIAXQzwFNms6mFDjh68UtSVYZFXaGMU5jQ/viewform?usp=dialog)!
   
 ## Helpful Pages 📑
 
