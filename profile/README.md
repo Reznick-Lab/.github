@@ -14,8 +14,13 @@ Interested in our lab and what we do? We are not hiring now, but may be hiring a
 If you've just starting getting used to this platform, please first go to [this](../README.md) page to get yourself started off on some basics. 
 
 ## Other Helpful Pages 
+### Introduction to github
 - [Basic Git Hub Commands](../basic-git-commands.md)
 - [Rules for this Org](../github-etiquette.md)
+### Beginner-friendly introduction to UCR HPCC
+- [Molecular population genetics using hpcc](https://github.com/Reznick-Lab/intro_ucrhpcc)
+### Bioinformatic workflows
+- [GATK SNP calling workflow setup in `python` Snakemake](https://github.com/Reznick-Lab/grasdi_snpcall)
 
 Note: Repositories uploaded to this organization are *project based* that way it's easier to find files especially if you are working on projects that share the same or similar scripts.
 
