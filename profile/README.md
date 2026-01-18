@@ -27,8 +27,9 @@ Interested in our lab and what we do? We are not hiring now, but may be hiring a
 ### Introduction to github
 - [Basic Git Hub Commands](../basic-git-commands.md)
 - [Rules for this Org](../github-etiquette.md)
-### Beginner-friendly introduction to UCR HPCC
-- [Molecular population genetics using hpcc](https://github.com/Reznick-Lab/intro_ucrhpcc)
+### Statistical learning and in-silico biology CURES/Repositories
+- [Beginner-friendly introduction to UCR HPCC](https://github.com/Reznick-Lab/intro_ucrhpcc)
+- [Phenotyping using colormesh with an intro to PCA](https://github.com/Reznick-Lab/colormesh_guppycoloranalysis)
 ### Bioinformatic workflows
 - [GATK SNP calling workflow setup in `python` Snakemake](https://github.com/Reznick-Lab/grasdi_snpcall)
 
